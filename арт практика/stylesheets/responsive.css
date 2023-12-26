@@ -1,0 +1,63 @@
+/* iPhone  */
+@media only screen and (orientation: portrait) and (min-device-width: 360px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .showmobile {
+    display: inline;
+    object-fit: cover;
+  }
+  main {
+    width: 1000%;
+    height: 100%;
+  }
+  .texwat {
+    display: none;
+  }
+  .texfire {
+    display: none;
+  }
+  .textair {
+    display: none;
+  }
+  .textlend {
+    display: none;
+  }
+  .line {
+    padding: auto;
+    width: 100%;
+    margin-bottom: 0%;
+    border-radius: 0%;
+  }
+  .linegre {
+    margin-bottom: 0%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .triangle {
+    display: none;
+  }
+
+  .water {
+    height: 100%;
+  }
+  .circle40 .circle8 {
+    display: none;
+  }
+}
+
+/* iPhone */
+@media only screen and (orientation: portrait) and (min-device-width: 414px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* iPad (все) */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* iPad  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1406px) and (orientation: portrait) {
+}
+
+/* Только десктопы */
+@media (min-width: 1025px) {
+}
+/* Только большие экраны */
+@media only screen and (min-width: 1920px) {
+}
